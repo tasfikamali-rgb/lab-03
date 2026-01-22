@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">ListyCity</string>
+
+        <string name="title_cities">Cities</string>
+        <string name="hint_city">City</string>
+        <string name="hint_province">Province</string>
+        <string name="cd_add_city">Add city</string>
+
 </resources>

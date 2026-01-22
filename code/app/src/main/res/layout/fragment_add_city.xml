@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:gravity="center_horizontal">
+
+    <EditText
+        android:id="@+id/edit_text_city_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxWidth="360dp"
+        android:minHeight="48dp"
+        android:paddingVertical="12dp"
+        android:ems="10"
+        android:hint="@string/hint_city"
+        android:inputType="textPersonName"
+        android:autofillHints="name" />
+
+    <EditText
+        android:id="@+id/edit_text_province_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxWidth="360dp"
+        android:minHeight="48dp"
+        android:paddingVertical="12dp"
+        android:ems="10"
+        android:hint="@string/hint_province"
+        android:inputType="textCapCharacters"
+        android:autofillHints="addressRegion" />
+</LinearLayout>
